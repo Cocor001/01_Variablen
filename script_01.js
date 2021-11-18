@@ -21,14 +21,27 @@
 
 //***** 03 Deklaration + Wertzuweisung II *****/
 
-let firstname, familyname;
-firstname = prompt ("Bitte Vorname eingeben");
-familyname = prompt ("Bitte Nachname eingeben");
-console.log(firstname +" "+ familyname);
+// let firstname, familyname;
+// firstname = prompt ("Bitte Vorname eingeben");
+// familyname = prompt ("Bitte Nachname eingeben");
+// console.log(firstname +" "+ familyname);
 
-let test;
-test = "hi";
-test = 2;
-test = true;
-console.log ("Datentyp:"+ typeof test);
-console.log ("Inhalt:" + test)
+// let test;
+// test = "hi";
+// test = 2;
+// test = true;
+// console.log ("Datentyp:"+ typeof test);
+// console.log ("Inhalt:" + test)
+
+/***** 03a Konstanten *****/
+const test = "Hi"; //Variable mit Konstantem Inhalt
+test = "Hallo"; //KEINE neue Zuweisung zur LZ möglich
+console.log ("Inhalt:"+ test);
+
+/***** Beispiele ***********/
+
+//Deklaration
+
+let ageJohn, ageMark;
+let birthYearJohn; birthYearMark;
+ 
