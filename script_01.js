@@ -25,3 +25,10 @@ let firstname, familyname;
 firstname = prompt ("Bitte Vorname eingeben");
 familyname = prompt ("Bitte Nachname eingeben");
 console.log(firstname +" "+ familyname);
+
+let test;
+test = "hi";
+test = 2;
+test = true;
+console.log ("Datentyp:"+ typeof test);
+console.log ("Inhalt:" + test)
