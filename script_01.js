@@ -42,6 +42,6 @@ console.log ("Inhalt:"+ test);
 
 //Deklaration
 
-let ageJohn, ageMark;
+let ageJohn; ageMark;
 let birthYearJohn; birthYearMark;
- 
+
