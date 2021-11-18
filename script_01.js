@@ -44,16 +44,20 @@
 
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark;
-let year = 2021;
+
+let date = new Date();
+console.log(date.getFullYear());
+
+// let year = 2021;
 
 //Wertzuweisung
-ageJohn = 25;
-ageMark = 35;
+// ageJohn = 25;
+// ageMark = 35;
 
-//Berechnung
-birthYearJohn = year - ageJohn;
-birthYearMark = year - ageMark;
+// //Berechnung
+// birthYearJohn = year - ageJohn;
+// birthYearMark = year - ageMark;
 
-//Ausgabe
-console.log ("birthYearJohn" + birthYearJohn);
-console.log ("birthYearMark" + birthYearMark);
+// //Ausgabe
+// console.log ("birthYearJohn" + birthYearJohn);
+// console.log ("birthYearMark" + birthYearMark);
